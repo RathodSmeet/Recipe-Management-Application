@@ -1,0 +1,28 @@
+.recipe-filter-container {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .recipe-filter-label {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .recipe-filter-select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+/* Add media query for smaller screens */
+@media (max-width: 768px) {
+    .recipe-filter-container {
+      max-width: 100%; /* Adjust container width for smaller screens */
+    }
+  
+    .recipe-filter-select {
+      width: 100%; /* Make select dropdown take full width on smaller screens */
+    }
+  }
+    

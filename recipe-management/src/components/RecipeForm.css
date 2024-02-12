@@ -1,0 +1,60 @@
+.recipe-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .recipe-form {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recipe-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .recipe-textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .recipe-submit-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .recipe-submit-btn:hover {
+    background-color: #0056b3;
+  }
+/* Add media query for smaller screens */
+@media (max-width: 768px) {
+    .recipe-form-container {
+      max-width: 100%; /* Adjust container width for smaller screens */
+    }
+  
+    .recipe-form {
+      width: 100%; /* Make form take full width on smaller screens */
+    }
+  
+    .recipe-input,
+    .recipe-textarea,
+    .recipe-submit-btn {
+      width: 100%; /* Make input fields and button take full width on smaller screens */
+    }
+  }
+    
