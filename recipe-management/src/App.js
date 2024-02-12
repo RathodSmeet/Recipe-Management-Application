@@ -1,6 +1,6 @@
 import './App.css';
-import RecipeAdd from './Components/AddReceipe/AddReceipe';
-import RecipeList from './Components/RecipeList/RecipeList';
+import RecipeAdd from '.components/AddReceipe/AddReceipe';
+import RecipeList from '.components/RecipeList/RecipeList';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
